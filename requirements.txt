@@ -1,0 +1,22 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization (optional, if any notebooks include visual output)
+matplotlib
+
+# API clients (for multiple LLMs)
+openai  # Official OpenAI Python client
+anthropic  # Anthropic client, replace with actual package name if different
+cohere  # Cohere Python client
+
+# Additional utilities
+tqdm  # for progress bars
+requests  # for handling HTTP requests
+python-dotenv  # for managing environment variables, e.g., API keys
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_multiple_generation.git#egg=llm_multiple_generation
